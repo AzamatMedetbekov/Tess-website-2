@@ -13,8 +13,8 @@ const satoshi = localFont({
 });
 
 export const metadata = {
-  title: "Quentin Le Pape",
-  description: "Product Design Leader, Front-End Developer, Serial Founder.",
+  title: "Tesseract Inc.",
+  description: "API, Foundry, Gotham, Apollo.",
 };
 
 export default function RootLayout({

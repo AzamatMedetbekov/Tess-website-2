@@ -44,7 +44,7 @@ export default function Sidebar() {
             className="flex flex-row items-center gap-3 text-XS text-bold text-faded text-uppercase"
           >
             <Logo />
-            Quentin Le Pape
+            Tesseract Inc.
           </Link>
         </nav>
         <LocationsSection

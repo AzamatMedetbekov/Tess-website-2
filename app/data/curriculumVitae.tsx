@@ -115,46 +115,20 @@ export const CurriculumVitae: {
   experience: [
     {
       type: "experience",
-      companyName: "Comand AI",
+      companyName: "something ai",
       image: { icon: "Rocket" },
       detail: "",
       link: new URL("https://www.comand.ai/"),
-      jobTitles: ["Founding Product Designer"],
-      date: { startDate: "2023", endDate: "Now" },
+      jobTitles: [""],
+      date: { startDate: "2024", endDate: "Now" },
     },
-    {
-      type: "experience",
-      companyName: "Palantir Technologies",
-      image: {
-        svgSource: <PalantirLogo />,
-      },
-      detail: "",
-      link: new URL("https://www.palantir.com/"),
-      jobTitles: ["Product Design Lead"],
-      date: { startDate: "2017", endDate: "2023" },
-    },
-    {
-      type: "experience",
-      companyName: "Bitcallz",
-      image: { icon: "Rocket" },
-      detail: "founder",
-      jobTitles: ["Full-Stack Developer", "Product Designer"],
-      date: { startDate: "2017", endDate: "2018" },
-    },
-    {
-      type: "experience",
-      companyName: "Thedirectory.io",
-      image: { icon: "Rocket" },
-      detail: "founder",
-      jobTitles: ["Full-Stack Developer", "Product Designer"],
-      date: { startDate: "2015", endDate: "2016" },
-    },
+    
     {
       type: "experience",
       companyName: "Contracting",
       image: { icon: "GlobeNetwork" },
-      jobTitles: ["Product Designer", "Developer"],
-      date: "Since 2012",
+      jobTitles: [""],
+      date: "Since 2024",
     },
   ],
 
@@ -162,262 +136,13 @@ export const CurriculumVitae: {
    * EDUCATION
    */
   education: [
-    {
-      type: "education",
-      diploma: "Master of Design (MDes)",
-      institution: "L’École de Design Nantes-Atlantique",
-      date: "2017",
-    },
-    {
-      type: "education",
-      diploma: "Master of Research in VR Engineering (MS)",
-      institution: "École Nationale Supérieure d'Arts et Métiers",
-      date: "2017",
-    },
-    {
-      type: "education",
-      diploma: "Bachelor of Design (BA)",
-      institution: "L’École de Design Nantes-Atlantique",
-      date: "2015",
-    },
+    
   ],
 
   /**
    * CLIENTS
    */
   clients: [
-    {
-      type: "client",
-      name: "FBI",
-      showcase: true,
-      content: {
-        link: new URL("https://www.palantir.com/offerings/intelligence/"),
-      },
-    },
-    {
-      type: "client",
-      name: "American Special Forces",
-      showcase: true,
-      content: {
-        link: new URL("https://www.palantir.com/offerings/defense/"),
-      },
-    },
-    {
-      type: "client",
-      name: "World Food Program",
-      showcase: true,
-      content: {
-        embed: (
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/Iisb3OclVEQ?autoplay=1&modestbranding=1&rel=0"
-            title="Our work with the World Food Program"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        ),
-        link: new URL("https://www.palantir.com/impact/world-food-programme/"),
-      },
-    },
-    {
-      type: "client",
-      name: "US Air Force",
-      showcase: true,
-      content: {
-        embed: (
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/touvdfsYLrk?autoplay=1&modestbranding=1&rel=0"
-            title="Our work with the US Air Force"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        ),
-        link: new URL("https://www.palantir.com/offerings/defense/air-space/"),
-      },
-    },
-    {
-      type: "client",
-      name: "US Space Force",
-      showcase: true,
-      content: {
-        embed: (
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/3iylsWhHivE?autoplay=1&modestbranding=1&rel=0&start=4"
-            title="Our work with the US Space Force"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        ),
-        link: new URL("https://www.palantir.com/offerings/defense/air-space/"),
-      },
-    },
-    {
-      type: "client",
-      name: "US Navy",
-      showcase: true,
-      content: {
-        embed: (
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/Hcr27WC0G9M?autoplay=1&modestbranding=1&rel=0"
-            title="Our work with the US Navy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        ),
-        link: new URL("https://www.palantir.com/offerings/defense/navy/"),
-      },
-    },
-    {
-      type: "client",
-      name: "US Army",
-      showcase: true,
-      content: {
-        link: new URL("https://www.palantir.com/offerings/defense/army/"),
-      },
-    },
-    {
-      type: "client",
-      name: "Counter Child Exploitation",
-      showcase: true,
-      content: {
-        embed: (
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/h29rt8QV1Ko?autoplay=1&modestbranding=1&rel=0"
-            title="Our work with NCMEC"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        ),
-        link: new URL(
-          "https://blog.palantir.com/fighting-child-exploitation-with-big-data-86868bad559e"
-        ),
-      },
-    },
-    {
-      type: "client",
-      name: "NIH",
-      showcase: true,
-      content: {
-        link: new URL("https://www.palantir.com/offerings/federal-health"),
-      },
-    },
-    {
-      type: "client",
-      name: "CDC",
-      showcase: true,
-      content: {
-        link: new URL("https://www.palantir.com/impact/federal-health/"),
-      },
-    },
-    {
-      type: "client",
-      name: "HHS",
-      showcase: true,
-      content: {
-        link: new URL("https://www.palantir.com/impact/federal-health/"),
-      },
-    },
-    {
-      type: "client",
-      name: "NHS",
-      showcase: true,
-      content: {
-        embed: (
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/lKOU7LPsaC4?start=214&autoplay=1&modestbranding=1&rel=0"
-            title="Our work with the NHS"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        ),
-        link: new URL("https://www.palantir.com/uk/healthcare/"),
-      },
-    },
-    {
-      type: "client",
-      name: "Sanofi",
-      showcase: true,
-      content: {
-        link: new URL("https://www.palantir.com/impact/rwe-pharma-sanofi/"),
-      },
-    },
-    {
-      type: "client",
-      name: "Merck",
-      showcase: true,
-      content: {
-        link: new URL(
-          "https://www.palantir.com/offerings/health/#biomanufacturing"
-        ),
-      },
-    },
-    {
-      type: "client",
-      name: "Swiss Re",
-      showcase: true,
-      content: {
-        embed: (
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/ITwz--MM7Bo?autoplay=1&modestbranding=1&rel=0"
-            title="Our work with Swiss Re"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        ),
-        link: new URL("https://www.palantir.com/impact/swiss-re/"),
-      },
-    },
-    {
-      type: "client",
-      name: "Clean Energy",
-      showcase: true,
-      content: {
-        embed: (
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/7u0Ec2eGZV0?autoplay=1&modestbranding=1&rel=0"
-            title="Our work for Clean Energy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        ),
-        link: new URL("https://www.palantir.com/offerings/energy/"),
-      },
-    },
-    {
-      type: "client",
-      name: "PG&E",
-      showcase: true,
-      content: {
-        embed: (
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/pgjUU98zR0c?autoplay=1&modestbranding=1&rel=0"
-            title="Our work with PG&E"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        ),
-        link: new URL(
-          "https://www.palantir.com/impact/pacific-gas-and-electric/"
-        ),
-      },
-    },
     {
       type: "client",
       name: "Airbus",
@@ -613,18 +338,18 @@ export const CurriculumVitae: {
   patents: [
     {
       type: "patent",
-      id: "11585672",
-      label: "Three-dimensional representations of routes",
-      link: new URL("https://patents.justia.com/patent/11585672"),
-      date: "2023",
+      id: "id of patent",
+      label: "Name of the patent",
+      link: new URL("https://patents.justia.com/patent/1158567"),
+      date: "2024",
     },
     {
       type: "patent",
-      id: "11500620",
+      id: "id of patent",
       label:
-        "Workflow application and user interface builder integrating objects, relationships, and actions",
-      link: new URL("https://patents.justia.com/patent/11500620"),
-      date: "2022",
+        "Name of the patent",
+      link: new URL("https://patents.justia.com/patent/1150062"),
+      date: "2024",
     },
   ],
 
@@ -634,20 +359,8 @@ export const CurriculumVitae: {
   locationsWorked: [
     {
       type: "locationWorked",
-      locationName: "San Francisco",
-      geo: {
-        lat: 37.77,
-        lon: -122.43,
-      },
-      preferredPointOfView: {
-        lat: 15.03,
-        lon: -110.98,
-      },
-      current: false,
-    },
-    {
-      type: "locationWorked",
       locationName: "New York",
+      detail: "USA",
       geo: {
         lat: 40.73,
         lon: -73.93,
@@ -660,56 +373,71 @@ export const CurriculumVitae: {
     },
     {
       type: "locationWorked",
-      locationName: "Los Angeles",
+      locationName: "Hong Kong",
+      detail: "Hong Kong",
       geo: {
-        lat: 34.05,
-        lon: -118.24,
+        lat: 22.3964,
+        lon: 114.1098,
       },
       preferredPointOfView: {
-        lat: 10.87,
-        lon: -104.93,
+        lat: 5,
+        lon: 114.1098,
       },
       current: false,
     },
     {
       type: "locationWorked",
-      locationName: "London",
-      detail: "UK",
+      locationName: "Dubai",
+      detail: "UAE",
       geo: {
-        lat: 51.51,
-        lon: -0.12,
+        lat: 25.276987,
+        lon: 55.296249,
       },
       preferredPointOfView: {
-        lat: 22,
-        lon: 2.48,
+        lat: 0.00,
+        lon: 55.20,
       },
       current: false,
     },
     {
       type: "locationWorked",
-      locationName: "Paris",
-      detail: "France",
+      locationName: "Gwangju",
+      detail: "South Korea",
       geo: {
-        lat: 48.86,
-        lon: 2.35,
+        lat: 35.1595454,
+        lon: 126.8526012,
       },
       preferredPointOfView: {
-        lat: 17,
-        lon: 9,
+        lat: 10.00,
+        lon: 126.70,
       },
       current: true,
     },
     {
       type: "locationWorked",
-      locationName: "Munich",
-      detail: "Germany",
+      locationName: "Moscow",
+      detail: "Russia",
       geo: {
-        lat: 48.14,
-        lon: 11.58,
+        lat: 55.755826,
+        lon: 37.6172999,
       },
       preferredPointOfView: {
-        lat: 19.15,
-        lon: 13,
+        lat: 30.00,
+        lon: 37.50,
+      },
+      current: false,
+    },
+    {
+      type: "locationWorked",
+      locationName: "Bishkek",
+      detail: "Kyrgyzstan",
+      geo: {
+        lat: 42.8746,
+        lon: 74.5698,
+      },
+      preferredPointOfView: {
+        lat: 20.00,
+        lon: 74.5698,
       },
       current: false,
     },

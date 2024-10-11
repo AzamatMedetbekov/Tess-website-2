@@ -1,6 +1,6 @@
 /**
  *  @fileOverview Wraps the children elements in a titled section.
- *  @author Quentin Le Pape
+ *  @author Tesseract Inc.
  */
 
 /**
